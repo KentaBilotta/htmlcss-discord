@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.header-links{
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.access-style{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.access-button{
+    vertical-align: middle;
+    margin-left: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+header{
+    background-color: rgb(23, 97, 244);
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.jumbo{
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grande{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.titolo1{
+    font-weight: bold;
+    padding: 30px;    
+}
+
+.bianco{
+    color: white;
+}
+
+.descrizione1{
+    padding: 5px;
+}
+
+.jumbo2{
+    position: relative;
+    top: 30px;
+}
+
+.download-button{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.gobrowser-button{
+    color: white;
+    background-color: rgb(33, 33, 33);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+
+.container:nth-child(odd){
+    display: flex;
+    height: 500px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+.container:nth-child(even){
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    height: 600px;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    margin-bottom: 70px;
+}
+
+.item-odd{
+    padding: 30px;
+    height: 100%;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+.titolo{
+    width: 300px;
+}
+
+.descrizione-odd{
+    padding: 50px;
+    margin-left: -250px;
+    height: 500px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#buttons{
+    margin-top: 30px;
+}
+
+.scritta{
+    color: rgb(56, 56, 56);
+    width: 400px;
+    line-height: 1.5rem;
+    margin-top: 30px;
+}
+
+.item-even{
+    padding: 30px;
+    margin-left: -100px;
+    height: 100%;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+.descrizione-even{
+    padding: 50px;
+    margin-left: 150px;
+    height: 500px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.last-container{
+    background-color: rgb(230, 230, 230);
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ultima{
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+}
+
+.last-item{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.stars{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+}
+
+.domanda{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.download-button2{
+    color: white;
+    background-color: rgb(99, 133, 214);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+}
+
+footer{
+    background-color: rgb(33, 33, 33);
+    padding: 70px;
+
+}
+
+.grande2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 250px;
+
+}
+
+.viola{
+    color:rgb(99, 133, 214);
+}
+
+.grasso{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sec-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-bottom{
+    border-top: 2px solid rgb(99, 133, 214);
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.signup-button{
+    color: white;
+    background-color: rgb(99, 133, 214);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.flag{
+    width: 30px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.lingua{
+    color: white;
+    font-size: 14px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.sec-main{
+    line-height: 45px;
+}
+
+.logos{
+    width: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
+
+.link2{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.link2:hover{
+    text-decoration: underline;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-left: 50px;
+}
