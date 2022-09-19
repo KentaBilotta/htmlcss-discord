@@ -5,8 +5,8 @@
 }
 
 html{
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 .logo{
@@ -68,7 +68,7 @@ header{
 }
 
 .titolo1{
-    font-weight: bold;
+    font-weight: bolder;
     padding: 30px;    
 }
 
@@ -102,29 +102,30 @@ header{
     border-radius: 30px;
 }
 
-
+.img-desc{
+    display: flex;
+    height: 450px;
+}
 
 .container:nth-child(odd){
+    padding: 50px;
     display: flex;
-    height: 500px;
-    padding-top: 70px;
-    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container:nth-child(even){
     background-color: rgb(230, 230, 230);
+    margin: 5px;
     display: flex;
-    height: 600px;
-    padding-top: 70px;
-    padding-bottom: 120px;
-    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
 }
 
 .item-odd{
-    padding: 30px;
-    height: 100%;
-    flex-basis: 0;
-    flex-grow: 2;
+    width: 600px;
 }
 
 .titolo{
@@ -132,11 +133,8 @@ header{
 }
 
 .descrizione-odd{
-    padding: 50px;
-    margin-left: -250px;
-    height: 500px;
-    flex-basis: 0;
-    flex-grow: 1;
+    width: 500px;
+    padding: 40px;
 }
 
 #buttons{
@@ -145,25 +143,17 @@ header{
 
 .scritta{
     color: rgb(56, 56, 56);
-    width: 400px;
     line-height: 1.5rem;
     margin-top: 30px;
 }
 
 .item-even{
-    padding: 30px;
-    margin-left: -100px;
-    height: 100%;
-    flex-basis: 0;
-    flex-grow: 2;
+    width: 600px;
 }
 
 .descrizione-even{
-    padding: 50px;
-    margin-left: 150px;
-    height: 500px;
-    flex-basis: 0;
-    flex-grow: 1;
+    width: 500px;
+    padding: 40px;
 }
 
 .last-container{
