@@ -10,42 +10,37 @@ html{
 }
 
 .logo{
-    vertical-align: middle;
+    padding: 5px;
 }
 
 .header-links{
-    margin-left: 100px;
-    position: relative;
-    top: 10px;
-}
-
-.access-style{
-    color: black;
-    text-decoration: none;
-    
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .access-button{
-    vertical-align: middle;
-    margin-left: 150px;
+    color: black;
+    text-decoration: none;
     background-color: white;
     padding: 10px;
     border-radius: 30px;
 }
 
 header{
-    background-color: rgb(23, 97, 244);
+    background-color: #255EE9;
     padding: 15px;
     font-size: 16px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
 .link{
-    vertical-align: middle;
     text-decoration: none;
     color: white;
-    margin-left: 30px;
 }
 
 .link:hover{
