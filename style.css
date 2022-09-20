@@ -111,7 +111,6 @@ header{
 
 .container:nth-child(even){
     background-color: rgb(230, 230, 230);
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
